@@ -44,14 +44,14 @@ def execute_models(df):
 
 
     #5.LOAD EXECUTION PIPES
-    with open('pipe_execution_pd.pickle', mode='rb') as file:
-       pipe_execution_pd = pickle.load(file)
+	with open('pipe_execution_pd.pickle', mode='rb') as file:
+		pipe_execution_pd = pickle.load(file)
 
-    with open('pipe_execution_ead.pickle', mode='rb') as file:
-       pipe_execution_ead = pickle.load(file)
+	with open('pipe_execution_ead.pickle', mode='rb') as file:
+		pipe_execution_ead = pickle.load(file)
 
-    with open('pipe_execution_lgd.pickle', mode='rb') as file:
-       pipe_execution_lgd = pickle.load(file)
+	with open('pipe_execution_lgd.pickle', mode='rb') as file:
+		pipe_execution_lgd = pickle.load(file)
 
 
 	#6.EXECUTION
@@ -69,4 +69,4 @@ def execute_models(df):
 		               })
 	EL['expected_loss'] = round(EL.pd * EL.principal * EL.ead * EL.lgd,2)
 
-    return(EL)
+	return(EL)
