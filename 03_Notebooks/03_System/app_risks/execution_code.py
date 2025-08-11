@@ -44,13 +44,13 @@ def execute_models(df):
 
 
     #5.LOAD EXECUTION PIPES
-	with open('pipe_execution_pd.pickle', mode='rb') as file:
+	with open('03_Notebooks/03_System/app_risks/pipe_execution_pd.pickle', mode='rb') as file:
 		pipe_execution_pd = pickle.load(file)
 
-	with open('pipe_execution_ead.pickle', mode='rb') as file:
+	with open('03_Notebooks/03_System/app_risks/pipe_execution_ead.pickle', mode='rb') as file:
 		pipe_execution_ead = pickle.load(file)
 
-	with open('pipe_execution_lgd.pickle', mode='rb') as file:
+	with open('03_Notebooks/03_System/app_risks/pipe_execution_lgd.pickle', mode='rb') as file:
 		pipe_execution_lgd = pickle.load(file)
 
 
