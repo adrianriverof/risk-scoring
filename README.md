@@ -8,7 +8,20 @@ This project involves creating a model to calculate **expected loss in a banking
 
 In addition, it includes a **Streamlit web application** that allows users to calculate loan risk using the trained models.
 
-
+<br>
+<p align="center">
+	<a href="https://risk-score-analyzer-prototype.streamlit.app/">
+		<img src="https://github.com/user-attachments/assets/26ebc28d-a412-4523-b3f9-23ff9ee94039" alt="" height="400"/>
+	</a>
+</p>
+<!--
+<img width="779" height="467" align="center" alt="app" src="https://github.com/user-attachments/assets/c2f369aa-4309-4231-b8b9-4aeab916bdd1" />
+-->
+<!--
+<img width="520" height="311" alt="imagen" src="https://github.com/user-attachments/assets/00a2953d-8a7b-4853-992d-9b3dc5c5ee04" />
+1558, 933
+-->
+<br>
 
 ## Risk Scoring Approach
 
