@@ -4,6 +4,13 @@
 
 ## Overview
 
+This project involves creating a model to calculate **expected loss in a banking risk context**. Using a loan dataset, different models are trained to estimate the **capital at risk** for that specific loan.
+
+In addition, it includes a **Streamlit web application** that allows users to calculate loan risk using the trained models.
+
+
+
+## Risk Scoring Approach
 
 
 
@@ -39,4 +46,6 @@ Clone the repository and install dependencies:
 conda env create -f 01_Documents/risks.yml
 conda activate risks
 ```
+
+
 
