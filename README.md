@@ -12,7 +12,9 @@ In addition, it includes a **Streamlit web application** that allows users to ca
 
 ## Risk Scoring Approach
 
-
+$$
+\text{Expected Loss (EL)} = PD \times P \times LGD \times EAD
+$$
 
 
 ## Process
