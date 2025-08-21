@@ -1,5 +1,5 @@
 
-# Risk Scoring
+# Loan Risk Scoring with Machine Learning
 
 
 ## Overview
@@ -25,6 +25,10 @@ Where:
 - **LGD** = Loss Given Default (%)
 - **EAD** = Exposure at Default (%)
 
+In order to calculate the expected loss, the models would predict from the personal data:
+
+- PD with a **Logistic Regression**
+- LGD and EAD with **LightGBM**
 
 *Typical elements of banking risk modeling (WOE, KS, information value, ...) were not used in order to keep this project more applicable to a general case*
 
@@ -41,7 +45,7 @@ Where:
 	
 3. Production
 	- Scripts for retraining and execution of the predictive models
-	- Build the [streamlit app](https://risk-score-analyzer-prototype.streamlit.app/) based on the predictive systems
+	- Build the [streamlit app](https://risk-score-analyzer-prototype.streamlit.app/) based on the predictive models
 
 
 ## Notebooks & Scripts
