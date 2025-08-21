@@ -11,7 +11,7 @@ In addition, it includes a **Streamlit web application** that allows users to ca
 <br>
 <p align="center">
 	<a href="https://risk-score-analyzer-prototype.streamlit.app/">
-		<img src="https://github.com/user-attachments/assets/26ebc28d-a412-4523-b3f9-23ff9ee94039" alt="" height="400"/>
+		<img src="https://github.com/user-attachments/assets/26ebc28d-a412-4523-b3f9-23ff9ee94039" alt="" height="300"/>
 	</a>
 </p>
 <!--
