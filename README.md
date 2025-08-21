@@ -12,9 +12,21 @@ In addition, it includes a **Streamlit web application** that allows users to ca
 
 ## Risk Scoring Approach
 
+The model follows the standard banking risk framework:
+
 $$
-\text{Expected Loss (EL)} = PD \times P \times LGD \times EAD
+EL = PD \times P \times EAD \times LGD
 $$
+
+Where:
+- **EL** = Expected Loss (€)
+- **PD** = Probability of Default (%)
+- **P** = Principal (€)
+- **LGD** = Loss Given Default (%)
+- **EAD** = Exposure at Default (%)
+
+
+*Typical elements of banking risk modeling (WOE, KS, information value, ...) were not used in order to keep this project more applicable to a general case*
 
 
 ## Process
