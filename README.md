@@ -5,15 +5,23 @@
 ## Overview
 
 
+
+
+
 ## Process
 
+1. Data preparation
+	- Clean the data, group atypicals
+	- Create new variables to get the target information for the estimation
 
-## Challenges
+2. Modeling
+	- Optimize hyperparameters for the three models 
+	- Prepare the final pipelines for production
+	
+3. Production
+	- Scripts for retraining and execution of the predictive models
+	- Build the [streamlit app](https://risk-score-analyzer-prototype.streamlit.app/) based on the predictive systems
 
-
-## Results
-
-- [Streamlit app](https://risk-score-analyzer-prototype.streamlit.app/)
 
 ## Notebooks & Scripts
 
